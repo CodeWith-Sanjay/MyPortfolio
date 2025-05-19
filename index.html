@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+      <nav class="container-fluid nav-main navbar navbar-expand-md ps-5">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills flex-md-row flex-column">
+            <li class="nav-item"><a href="#home" class="nav-link nav-font" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link nav-font">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link nav-font">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link nav-font">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link nav-font">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Home -->
+    <div class="row align-items-center align-shelf-center ms-3 me-3 home-main" id="home">
+
+      <div class="col-12 col-sm-6 col-md-5 col-lg-6 p-5 home-content">
+
+        <h1 class="fw-bold lh-1 home-name pb-2">Hi, I'm Sanjay</h1> 
+        <h2 class="typing-title pb-2">A Web Developer</h2>
+
+        <div class="d-grid gap-2 d-md-flex pt-2 justify-content-md-start">
+          <a type="button" class="btn btn-md pb-3 ps-0 pe-4 me-md-2 home-btn" href="mailto:sanjayganesan016@gmail.com" target="_blank">Contact</a>
+          <a type="button" class="btn btn-md pb-3 ps-0 pe-4 me-md-2 home-btn" href="https://wa.me/918870316954" target="_blank">Whatsapp</a>
+        </div>
+
+        <div class="d-flex justify-content-md-start home-social">
+          <a href="https://github.com/CodeWith-Sanjay" target="_blank"><img width="35" height="35" class="home-logo-git" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/></a>
+          <a href="https://www.linkedin.com/in/sanjay-ganesan-75871924a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img width="35" height="35" class="home-logo-linked" src="https://img.icons8.com/ios-glyphs/30/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-5 pb-0 mb-0">
+          <img src="./images/sanjay_portfolio.png" class="home-img" alt="Sanjay's Portfolio">
+      </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="pt-5 pb-0 justify-content-center" id="aboutme"> 
+      <h2 class="border-bottom px-4">About Me</h2>
+      <div class="row container d-flex justify-content-center align-items-center pt-3 bg-body-tertiary rounded-3 about-container">  
+        <div class="col-12 col-md-6 col-lg-6 about-img-container">
+          <img src="./images/sanjay-about.jpg" class="about-img" alt="sanjay-pp" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 pb-0">
+        <p class="about-text" style="text-align: justify;">
+          Hey! I'm a web developer who loves building clean, responsive, and dynamic websites. I mostly work with HTML, CSS, JavaScript, and tools like Node.js, Express.js, and React.js. I use VS Code and GitHub to bring my ideas to life and I'm always looking to improve how I write code. As someone just starting out, I’m really passionate about learning and growing in this field, and I'm excited to turn this passion into a meaningful career.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="px-4 py-4" id="skills">
+      <h2 class="pb-2 border-bottom">Skills</h2>
+
+      <h4 class="p-3 h3">Web Technologies</h4>
+      <div class="row d-flex justify-content-lg-center justify-content-md-center gap-md-5 g-4 py-4 row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4">
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+          </div>
+          <div>
+            <h3 class="fs-4">HTML</h3>
+            <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" class="btn btn-primary">
+              Discover HTML
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+          </div>
+          <div>
+            <h3 class="fs-4 text-body-emphasis">CSS</h3>
+            <a href="https://www.w3schools.com/Css/css_intro.asp" target="_blank" class="btn btn-primary">
+              Discover CSS
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+          </div>
+          <div>
+            <h3 class="fs-4 text-body-emphasis">JS</h3>
+            <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank" class="btn btn-primary">
+              Discover JS
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="p-3 h3">BackEnd & Database</h4>
+      <div class="row d-flex justify-content-lg-center justify-content-md-center gap-md-5 g-4 py-4 row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4">
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/fluency/240/node-js.png" alt="node-js"/>
+          </div>
+          <div>
+            <h3 class="fs-4">NodeJs</h3>
+            <a href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" target="_blank" class="btn btn-primary">
+              Discover NodeJs
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js"/>
+          </div>
+          <div>
+            <h3 class="fs-4 text-body-emphasis">ExpressJs</h3>
+            <a href="https://www.geeksforgeeks.org/introduction-to-express/" target="_blank" class="btn btn-primary">
+              Discover ExpressJs
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
+          </div>
+          <div>
+            <h3 class="fs-4 text-body-emphasis">MySQL</h3>
+            <a href="https://www.w3schools.com/mysql/mysql_intro.asp" target="_blank" class="btn btn-primary">
+              Discover MySQL
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <h4 class="p-3 h3">Tools & Platforms</h4>
+    <div class="row d-flex justify-content-lg-center justify-content-md-center gap-md-5 g-4 py-4 row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-4">
+
+      <!-- <div class="col d-flex align-items-start">
+        <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img width="40" height="40" src="https://img.icons8.com/office/40/react.png" alt="react"/>
+        </div>
+        <div>
+          <h3 class="fs-4">ReactJs</h3>
+          <a href="https://www.geeksforgeeks.org/reactjs-introduction/" target="_blank" class="btn btn-primary">
+            Discover ReactJs
+          </a>
+        </div>
+      </div> -->
+
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/>
+        </div>
+        <div>
+          <h3 class="fs-4">github</h3>
+          <a href="https://www.geeksforgeeks.org/introduction-to-github/" target="_blank" class="btn btn-primary">
+            Discover github
+          </a>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-body d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img width="40" height="40" src="https://img.icons8.com/color/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
+        </div>
+        <div>
+          <h3 class="fs-4 text-body-emphasis">VS Code</h3>
+          <a href="https://www.geeksforgeeks.org/introduction-to-visual-studio/" target="_blank" class="btn btn-primary">
+            Discover VS code
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+    <!-- Projects -->
+    <div class="px-4 py-4 container-fluid" id="projects">
+      <h2 class="pb-2 border-bottom">Projects</h2>
+      <div class="d-grid container p-3">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2"><h6 style="font-weight: bold;">Project Name</h6></div>
+          <div class="col-12 col-md-8 col-lg-9 col-xl-8"><p>Career Builder</p></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2"><h6 style="font-weight: bold;">Description</h6></div>
+          <div class="col-12 col-md-8 col-lg-9 col-xl-8"><p style="text-align: justify;">Career Builder is a full-stack web application designed to streamline job searching and recruitment processes. The platform supports two main user roles: job applicants and companies. Applicants can create detailed professional profiles, including personal information, work experience, education, skills, certifications, projects, and social links. Companies can also register, manage their profiles, and post job openings. <mark> I have only complete the front end in future backend will be update.</mark></p></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2"><h6 style="font-weight: bold;">Tech Used</h6></div>
+          <div class="col-12 col-md-8 col-lg-9 col-xl-8"><p>React.js · HTML · CSS · Bootstrap · JavaScript · Node.js · MySQL</p></div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 col-xl-2"><h6 style="font-weight: bold;">Link to Project</h6></div>
+          <div class="col-12 col-md-8 col-lg-9 col-xl-8">
+            <a href="https://career-builder-zeta.vercel.app" target="_blank">Career Builder (Front End)</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+    <!-- Contact -->
+    <div class="container-fluid contact-me" id="contact">
+    <h1 class="contact-head p-5">Connect With Me!</h1>
+    <form id="contact-form">
+    <div class="row d-flex p-2 gap-5 justify-content-center">
+      <input class="input-contact-text row-cols-12" type="text" name="name" placeholder="Enter Name" required>
+      <input class="input-contact-text rows-col-12" type="email" name="email" placeholder="Enter Email" required />
+      <textarea class="input-contact-textarea rows-col-12" name="message" placeholder="Enter Message" required></textarea>
+      
+    </div>
+    <input type="submit" class="btn-contact rows-col-12 mb-1" value="Send" />
+    </form>
+    </div>
+
+<!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    (function() {
+      emailjs.init("-qd_GlerPMylSVA--"); 
+    })();
+    </script>
+
+  <!-- Footer -->
+   <footer class="py-3 my-4"> 
+    <ul class="nav justify-content-center border-bottom  pb-3 mb-3"> 
+      <li class="nav-item nav-font"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li> 
+      <li class="nav-item nav-font"><a href="#aboutme" class="nav-link px-2 text-body-secondary">About Me</a></li>
+      <li class="nav-item nav-font"><a href="#skills" class="nav-link px-2 text-body-secondary">Skills</a></li> 
+      <li class="nav-item nav-font"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>  
+    </ul> 
+    <p class="text-center text-body-secondary">© 2025 Sanjay</p> 
+  </footer>
+
+<!-- External JS File -->
+<script src="./index.js"></script>
+
+</body>
+</html>
