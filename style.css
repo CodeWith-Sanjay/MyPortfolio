@@ -68,7 +68,7 @@
     border: 0;
 }
 
-.home-btn:hover, .home-btn:active, .home-btn:focus {
+.home-btn:hover, .home-btn:active {
     color: black;
     transition: 0.3s ease-in-out;
     border: 0;
